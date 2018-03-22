@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="assets/javascript/game.js"></script>
+
+	<title>Pokemon Battle Game</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div id="char-inventory-bucket" class="row">
+			<div class="col-md-2 char-wrapper">
+				<div id="char-header">
+					<center>Pokemon Inventory</center>
+				</div>
+				<div id="char1" class="row char1 char-inventory">
+					<img src="assets/images/dragonite.png" width="120">
+				</div>
+				<div class="char-name char1-name">
+					<center>Dragonite</center>
+				</div>
+				<div id="char2" class="row char2 char-inventory">
+					<img src="assets/images/alakazam.png" width="120">
+				</div>
+				<div class="char-name char2-name">
+					<center>Alakazam</center>
+				</div>
+				<div id="char3" class="row char3 char-inventory">
+					<img src="assets/images/tyranotaur.png" width="120">
+				</div>
+				<div class="char-name char3-name">
+					<center>Tyranotaur</center>
+				</div>
+				<div id="char4" class="row char4 char-inventory">
+					<img src="assets/images/zapdos.png" width="120">
+				</div>
+				<div class="char-name char4-name">
+					<center>Zapdos</center>
+				</div>
+			</div>
+
+			<div class="col-md-8 battle-panel">
+				<div class="sword">
+					<img src="assets/images/sword.png" width="60" height="60">
+				</div>
+				<div class="shield">
+					<img src="assets/images/shield.png" width="60" height="60">
+				</div>
+				<div class="flame">
+					<img src="assets/images/flame.png" width="90" height="90">
+				</div>
+				<div class="instructions">
+					<center>instructions</center>
+				</div>
+				<div class="row hp-values">
+					<div id="hp-header">
+						<center>Pokemon Health Stats</center>
+					</div>
+					<div id="hp-atk" class="col-md-2 hp-char-atk">
+					</div>
+					<div id="def-atk" class="col-md-2 hp-char-def">
+					</div>
+				</div>
+				<div class="row char-battle">
+					<div id="attacking-char" class="col-md-4 atk-char">
+					</div>
+					<div id="defending-char" class="col-md-4 def-char">
+					</div>
+				</div>
+				<div class="row atk-values">
+					<div id="atk-header">
+						<center>Pokemon Attack Stats</center>
+					</div>
+					<div class="col-md-2 atk-points">
+					</div>
+					<div class="col-md-2 def-points">
+					</div>
+				</div>
+				<div class="row">
+					<div class="attack-button col-md-12">
+						<center><button class="button" type="button">Attack!</button></center>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
