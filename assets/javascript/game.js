@@ -197,7 +197,7 @@ $(document).ready(function() {
       else if (endAtkPhase === false) {
       $(".attack-button").show()  //shows button used to initiate attacks
       $(".instructions").html("<h3>Now use the attack button to strike at your enemy!</h3>")
-      $(".attack-button").on("click", function() {  //click listener for attack button
+      $(".attack-button").off().on("click", function() {  //click listener for attack button
         
         tempAtkHP = tempAtkHP - counterPwr  //adjusts attaacking pokemons hp
         tempDefHP = tempDefHP - tempAtkPwr  //adjusts defender hp
