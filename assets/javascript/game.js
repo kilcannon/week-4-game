@@ -183,8 +183,8 @@ $(document).ready(function() {
       $(".def-points").text(0)  //resets visuals for def hp pokemon
       $(".attack-button").hide() //hides attack button until new defender is chosen
       defChosen = false  //resets checker for defender function
-      defendPicker() //initializes defender chooser function
       endAtkPhase = true
+      defendPicker() //initializes defender chooser function
     };
   };
 
